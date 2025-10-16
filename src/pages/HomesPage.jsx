@@ -1,6 +1,6 @@
 import React from "react";
 
-// Reuse your existing sections
+
 import HeroSection from "../components/HeroSection";
 import WhatsHot from "../components/WhatsHot";
 import ResearchSection from "../components/ResearchSection";
