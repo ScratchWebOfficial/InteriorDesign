@@ -1,0 +1,45 @@
+/* centers the image container */
+.hero {
+  background: #fff;
+  padding-top: 12px; /* small breathing room under the bar */
+}
+
+/* wrap to center content */
+.hero .hero-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+/* center the image and limit max width like the reference */
+.hero-image {
+  display: block;
+  max-width: 1400px;   /* adjust as you like */
+  width: 100%;
+  height: auto;
+  margin: 0 auto;      /* horizontal center */
+  object-fit: cover;
+  justify-content: center;
+}
+
+/* caption area */
+.hero-text {
+  text-align: center;
+  padding: 32px 16px 40px;
+}
+
+.project-tag {
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.hero-text h2 {
+  font-style: italic;
+  font-size: 22px;
+  color: #222;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.4;
+  max-width: 980px;
+  margin: 0 auto;
+}

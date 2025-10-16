@@ -1,0 +1,128 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.sidebar.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.sidebar-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 20px;
+  gap: 40px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar-left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+}
+
+.sidebar-left li {
+  margin: 12px 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.sidebar-left li:hover {
+  color: #f25022;
+}
+
+.sidebar-left hr {
+  margin: 18px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.sidebar-right {
+  text-align: left;
+  max-width: 320px;
+}
+
+.issue-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.subscribe-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #111;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.issue-box img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.issue-info p {
+  margin: 0;
+  color: #222;
+  line-height: 1.4;
+}
+
+.project-type {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 6px;
+  color: #111;
+  text-decoration: none;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.read-more:hover {
+  color: #f25022;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .sidebar-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sidebar-right {
+    margin-top: 30px;
+    max-width: 100%;
+  }
+}

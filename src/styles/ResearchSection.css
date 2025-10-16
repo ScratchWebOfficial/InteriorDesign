@@ -1,0 +1,20 @@
+/* add this tiny title above the image */
+.research-kicker {
+  max-width: 1280px;
+  margin: 0 auto 10px;
+  padding: 0 20px;
+  font-size: 22px;
+  color: #111;
+}
+
+/* rest can be your previous CSS; below are safe defaults */
+.research-section { background:#fff; text-align:center; padding: 28px 0 48px; }
+.research-container { max-width:1280px; margin:0 auto; padding:0 20px; }
+.research-image img { width:100%; height:auto; display:block; object-fit:cover; border-radius:2px; }
+.research-text { margin-top:16px; }
+.research-tag { text-transform:uppercase; color:#777; font-weight:600; letter-spacing:1px; font-size:13px; margin-bottom:6px; }
+.research-heading { font-style:italic; font-family: Georgia, "Times New Roman", serif; font-size: clamp(20px, 2.2vw, 26px); color:#111; }
+.research-nav { display:flex; justify-content:center; gap:40px; margin-top:18px; }
+.nav-btn { all:unset; cursor:pointer; font-size:28px; color:#d46a3e; transition:transform .2s, color .2s; }
+.nav-btn:hover { transform:scale(1.15); color:#b85526; }
+@media (max-width:768px){ .nav-btn{font-size:24px;} .research-kicker{font-size:18px;} }

@@ -1,0 +1,47 @@
+.main-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 40px;
+  position: relative;
+}
+
+/* Left icons */
+.icon-btn {
+  all: unset;
+  cursor: pointer;
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+/* Center logo/title */
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.brand-title {
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+}
+
+/* Optional hover feel */
+.icon-btn:hover {
+  color: #555;
+}

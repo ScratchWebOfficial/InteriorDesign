@@ -1,0 +1,29 @@
+.sub-navbar {
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  width: 100%;
+}
+
+.sub-menu {
+  display: inline-flex;
+  list-style: none;
+  padding: 15px 0;
+  margin: 0;
+  gap: 50px;
+}
+
+.sub-menu li {
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #333;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+.sub-menu li:hover {
+  color: #000;
+  text-decoration: underline;
+}
