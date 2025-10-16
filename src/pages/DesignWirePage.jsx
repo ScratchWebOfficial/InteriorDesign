@@ -13,7 +13,7 @@ export default function DesignWirePage() {
         </p>
       </header>
 
-      {/* Reuse Editors’ Picks as a newsy list for now */}
+      
       <EditorsPicks />
 
       <section style={{ maxWidth: 960, margin: "0 auto", padding: "0 20px 40px" }}>
